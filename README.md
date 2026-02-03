@@ -10,4 +10,4 @@ Simulating DB3 ingest
 6. pip install polars
 7. ./make_big_csv.sh
 8. export INFLUXDB_TOKEN=apiv3_YOUR_TOKEN
-9. python3 test.py --ingest --csv big.csv --db bigdata --measurement lab --batch-size 10
+9. python3 make_big_data.py --ingest --csv big.csv --db bigdata --measurement lab --batch-size 10
